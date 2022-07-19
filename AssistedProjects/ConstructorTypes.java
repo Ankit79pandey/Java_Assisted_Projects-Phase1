@@ -7,6 +7,10 @@ public class ConstructorTypes {
 	String name;
 	int salary;
 	String Department;
+	
+	
+	
+	//Default Constructor
 	public ConstructorTypes() {
 		EmpId=9876;
 		name="Ankit pandey";
@@ -15,6 +19,8 @@ public class ConstructorTypes {
 		
 		System.out.println("This is default Constructor");
 	}
+	
+	//Parameterized Constructor
 	public ConstructorTypes(int EmployeeId,String Name,int Salary,String department) {
 		this.EmpId=EmployeeId;
 		this.name=Name;
